@@ -33,3 +33,12 @@ find | buscar cadena de texto | find . -name tecmint.txt |
 -mc | conteo de caracteres | -mc joel.txt |
 -lc | conteo de lineas | -lc joel.txt |
 reboot | reinicia el sistema | no hay ejemplo |
+tail | muestra las ultimas lineas de un archivo de texto | tail -n joel.txt |
+head | muestra las primeras lineas de un archivo de textos | head -n joel.txt |
+du | ver cuánto espacio ocupa un archivo o un directorio | du -h joel.txt |
+diff | compara el contenido de dos archivos | diff archivo1.ext archivo2.ext |
+tar | guardar archivos en un tarball | no hay ejemplo | 
+chmod | cambair los permisos de lectura | chmod +rwx filename to add permissions. | 
+chown | cambiar o transferir la propiedad de un archivo | chown linuxize file1 |
+jobs | muestra todos los trabajos actualez | jobs | 
+kill | cerrar un programa manualmente | kill -1 PID_NUMBER | 
