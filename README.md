@@ -42,3 +42,24 @@ chmod | cambair los permisos de lectura | chmod +rwx filename to add permissions
 chown | cambiar o transferir la propiedad de un archivo | chown linuxize file1 |
 jobs | muestra todos los trabajos actualez | jobs | 
 kill | cerrar un programa manualmente | kill -1 PID_NUMBER | 
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common | Instalar paquetes necesarios de docker | sin ejemplo |
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-keyadd - |  Agregar la clave GPG oficial de Docker | sin ejemplo |
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stabl |  Agregar el repositorio oficial de Docker | sin ejemplo |
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose | Instalar docker | sin ejemplo |
+sudo usermod -aG docker $USER | usar docker sin necesidad del sudo | sin ejemplo |
+docker search ubuntu | para buscar imagenes | sin ejemplo |
+sudo docker images | para ver todas las imagenes instaladas | sin ejemplo |
+sudo docker ps -a | para ver como están las imagenes instaladas | sin ejemplo |
+docker start container-id| para iniciar un contenedor | sin ejemplo |
+docker stop container-id | para detener un contenedor | sin ejemplo |
+sudo docker login -u USUARIODOCKERHUB | iniciar sesión en docker | sudo docker login -u jabrilm16 | 
+sudo docker commit b7dc036f2c99 | hacer un push a la cuenta de docker | sin ejemplo |
+docker rmi Image Image | eliminar imagenes en docker | docker rmi Image Image15 |
+docker rm ID ID | eliminar contenedores en docker | docker rm ID 4bd76e08b07f |
+docker run --rm image_name | eliminar contenedores en docker después de cerrado| docker run --rm wordpress |
+sudo docker rm $(sudo docker ps -a -f status=exited -q) |  Eliminar todos los contenedores con estado Exited (0) | sin ejemplo |
+finger usuario | Muestra información general sobre un usuario en la red | finger jabrlim467@ulacit.ed.cr |
+passwd | para cambiar la contraseña | sin ejemplo |
+ps -ux | para mostrar información sobre los procesos que se están ejecutando en el sistema | sin ejemplo | 
+Date | mustra la hora y la fecha actual | sin ejemplo |
+Cmatrix | pEntrar a Matrix | sin ejemplo |
