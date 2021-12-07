@@ -62,4 +62,5 @@ finger usuario | Muestra información general sobre un usuario en la red | finge
 passwd | para cambiar la contraseña | sin ejemplo |
 ps -ux | para mostrar información sobre los procesos que se están ejecutando en el sistema | sin ejemplo | 
 Date | mustra la hora y la fecha actual | sin ejemplo |
-Cmatrix | pEntrar a Matrix | sin ejemplo |
+cmatrix | pEntrar a Matrix | sin ejemplo |
+telnet towel.blinkenlights.nl | Star Wars, A New Hope | Solo ver |
